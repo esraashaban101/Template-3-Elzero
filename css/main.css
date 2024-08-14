@@ -261,9 +261,9 @@ header .main-nav > li > a:hover::before
 }
 .other-links:hover .mega-menu
 {
- 
-  opacity: 1;
+ display: flex;
 
+  opacity: 1;
 }
 .mega-menu
 {
@@ -274,8 +274,8 @@ header .main-nav > li > a:hover::before
   background-color: white;
   box-shadow: 0 0 5px #eeee;
   border-bottom: 3px solid var(--main-color);
-  z-index: 1000;
-  display: flex;
+ z-index: 1000;
+  display: none;
   justify-content: space-evenly;
   text-align: start;
   transition: var(--main-transition);
